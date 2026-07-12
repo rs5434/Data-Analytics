@@ -3,7 +3,7 @@ Projects for Data Analytics role
 
 1. Salary Dashboard
    
-# Data Science Salary Dashboard
+# 1. Salary Dashboard
 
 An interactive Excel dashboard analyzing 32,000+ global job postings in data-related roles (Data Analyst, Data Scientist, Data Engineer, etc.).
 
