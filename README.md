@@ -123,18 +123,8 @@ This report provides a single-page, at-a-glance view of mobile sales data, built
 3. If prompted, refresh the data source to reload the underlying dataset.
 4. Use the slicers on the report page to filter by brand, model, payment method, day, or month.
 
-## 📁 Repository Structure
-
-```
-├── Mobile_Sales_Dashboard.pbix   # Power BI report file
-└── README.md                     # Project documentation
-```
-
 ## 📌 Notes
 
 - This is a single-page report ("Page 1") combining KPI cards, charts, a map, and a summary table.
 - Data connections may need to be refreshed or repointed depending on where the source data resides.
 
-## 📄 License
-
-Add a license of your choice (e.g., MIT) if you plan to share this publicly.
