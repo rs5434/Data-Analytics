@@ -1,8 +1,12 @@
 # Data-Analytics
 Projects for Data Analytics role
 
+## Excel
 1. Salary Dashboard
 2. Database Analysis
+
+## Power BI
+3. Mobile Sales Dashboard
    
 # 1. Salary Dashboard
 
@@ -74,3 +78,63 @@ Each sheet is a pivot table paired with an embedded chart for quick visual refer
 - [ ] Add a combined role + skill + region cross-tab for deeper segmentation
 - [ ] Standardize "skill likelihood" formatting (currently mixed decimal/percentage)
 - [ ] Convert pivots to a script-based pipeline (e.g. pandas) for repeatable updates
+
+
+# 3. Mobile Sales Dashboard
+
+An interactive **Power BI** dashboard for analyzing mobile phone sales performance — covering revenue, quantity sold, transactions, customer ratings, and payment trends across brands, models, and cities.
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+
+## 📊 Overview
+
+This report provides a single-page, at-a-glance view of mobile sales data, built to help stakeholders quickly spot trends in revenue, top-selling models, customer satisfaction, and regional performance.
+
+## ✨ Features
+
+- **KPI Cards** — Total Sales, Total Quantity, Transactions, and Average (at-a-glance summary metrics)
+- **Sales by City** — Map visual showing geographic distribution of Total Sales
+- **Sales Trend** — Line chart of Total Quantity over Month and Day
+- **Top Models** — Clustered bar chart of Total Sales by Mobile Model
+- **Payment Method Split** — Pie chart of Transactions by Payment Method
+- **Customer Ratings** — Funnel chart of customer rating distribution
+- **Day-of-Week Trend** — Area chart of Total Sales by Day Name
+- **Brand Summary Table** — Total Sales, Total Quantity, and Transactions by Brand
+- **Interactive Slicers** — Filter by Mobile Model, Payment Method, Brand, Day Name, and Month
+
+## 🗂️ Data Model
+
+| Table | Description |
+|---|---|
+| `Sales_Data` | Core fact table containing transaction-level mobile sales records |
+
+**Key fields:** Brand, Mobile Model, City, Payment Method, Customer Ratings, Day Name, Month, Day
+
+**Key measures:** Total Sales, Total Quantity, Transactions, Average
+
+## 🛠️ Tools Used
+
+- Power BI Desktop
+
+## 🚀 Getting Started
+
+1. Clone or download this repository.
+2. Open `Mobile_Sales_Dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+3. If prompted, refresh the data source to reload the underlying dataset.
+4. Use the slicers on the report page to filter by brand, model, payment method, day, or month.
+
+## 📁 Repository Structure
+
+```
+├── Mobile_Sales_Dashboard.pbix   # Power BI report file
+└── README.md                     # Project documentation
+```
+
+## 📌 Notes
+
+- This is a single-page report ("Page 1") combining KPI cards, charts, a map, and a summary table.
+- Data connections may need to be refreshed or repointed depending on where the source data resides.
+
+## 📄 License
+
+Add a license of your choice (e.g., MIT) if you plan to share this publicly.
